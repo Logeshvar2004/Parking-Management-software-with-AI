@@ -1,0 +1,244 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure", "You're Welcome"],
+         "context": [""]
+        },
+        {"tag": "query",
+         "patterns": ["What is Simplilearn?"],
+         "responses": ["Simplilearn is the popular online Bootcamp & online courses learning platform "],
+         "context": [""]
+        },
+        {
+            "tag": "parking_info",
+            "patterns": ["What are the parking rates?", "Tell me about parking options"],
+            "responses": ["Our parking rates vary based on the duration of stay. Please refer to the signage at the entrance for detailed information on parking fees."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "parking_hours",
+            "patterns": ["What are the operating hours of the parking facility?", "When can I park my vehicle?"],
+            "responses": ["The parking facility is open 24/7 for your convenience. You can park your vehicle at any time during our operating hours."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "valet_parking",
+            "patterns": ["Do you offer valet parking?", "Is there a valet service available?"],
+            "responses": ["Yes, we provide valet parking services for your convenience. Our professional valets will assist you with parking your vehicle."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "accessible_parking",
+            "patterns": ["Is there accessible parking for people with disabilities?", "Tell me about handicapped parking"],
+            "responses": ["We have designated accessible parking spaces near the entrance for individuals with disabilities. Please display a valid permit to use these spaces."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "monthly_parking_pass",
+            "patterns": ["Do you offer monthly parking passes?", "Can I purchase a monthly parking permit?"],
+            "responses": ["Yes, we offer monthly parking passes. You can purchase a permit for a discounted rate, providing you with convenient and cost-effective parking."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "lost_ticket",
+            "patterns": ["What should I do if I lose my parking ticket?", "Lost parking ticket"],
+            "responses": ["If you lose your parking ticket, please contact our customer service. They will assist you in retrieving your vehicle by verifying your details."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "security_measures",
+            "patterns": ["How secure is the parking facility?", "Tell me about parking security measures"],
+            "responses": ["Our parking facility is equipped with surveillance cameras and security personnel to ensure the safety of your vehicle. Your security is our top priority."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "reservation_system",
+            "patterns": ["Is there a reservation system for parking spaces?", "Can I reserve a parking spot in advance?"],
+            "responses": ["We currently do not have a reservation system for parking spaces. Parking is available on a first-come, first-served basis."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "electric_vehicle_charging",
+            "patterns": ["Do you have charging stations for electric vehicles?", "Tell me about electric vehicle charging"],
+            "responses": ["Yes, we have designated charging stations for electric vehicles. Feel free to use these facilities to charge your electric vehicle while parked."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "park_and_ride",
+            "patterns": ["Is there a park and ride option available?", "Tell me about park and ride services"],
+            "responses": ["Yes, we offer park and ride services. You can park your vehicle at our facility and use public transportation for your onward journey."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "payment_methods",
+            "patterns": ["What payment methods are accepted for parking?", "Tell me about accepted payment options"],
+            "responses": ["We accept various payment methods, including cash, credit cards, and mobile payments. Choose the option that is most convenient for you."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "validation_program",
+            "patterns": ["Do you have a parking validation program?", "Tell me about parking validation"],
+            "responses": ["Yes, we have a parking validation program. Certain businesses and customers may qualify for parking validation. Please inquire at our customer service desk for more information."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "parking_rules",
+            "patterns": ["What are the rules and regulations for parking?", "Tell me about parking policies"],
+            "responses": ["Please adhere to posted signs and regulations within the parking facility. Failure to comply with parking rules may result in fines or towing."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "event_parking",
+            "patterns": ["Is there special parking for events?", "Tell me about event parking"],
+            "responses": ["During events, we may have designated parking areas. Please follow event signage and instructions for parking during special occasions."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "bicycle_parking",
+            "patterns": ["Do you have facilities for bicycle parking?", "Tell me about bicycle parking options"],
+            "responses": ["Yes, we provide designated areas for bicycle parking. Feel free to use these facilities for securing your bicycle."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "parking_app",
+            "patterns": ["Is there a mobile app for parking information?", "Tell me about the parking app"],
+            "responses": ["Yes, we have a mobile app that provides real-time parking information, including availability, rates, and special promotions. Download it for a seamless parking experience."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "visitor_parking",
+            "patterns": ["Where can visitors park?", "Tell me about visitor parking"],
+            "responses": ["Visitors can park in designated visitor parking areas. Please follow signage and instructions to find these designated spaces."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "overnight_parking",
+            "patterns": ["Is overnight parking allowed?", "Tell me about parking overnight"],
+            "responses": ["Overnight parking is allowed. Please check with our customer service for information on rates and any specific requirements for leaving your vehicle overnight."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "payment_disputes",
+            "patterns": ["What should I do if I have a payment dispute?", "Dispute a parking charge"],
+            "responses": ["If you have a payment dispute, please contact our customer service. They will assist you in resolving any payment-related issues."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "parking_attendants",
+            "patterns": ["Are there parking attendants available?", "Tell me about parking attendants"],
+            "responses": ["Yes, we have parking attendants on-site to assist you. If you need help or have questions, feel free to approach one of our attendants."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "parking_rewards",
+            "patterns": ["Do you have a parking rewards program?", "Tell me about parking loyalty rewards"],
+            "responses": ["Yes, we offer a parking rewards program. Regular parkers can earn points and enjoy discounts or special perks. Ask at our customer service desk for details on how to enroll."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "bus_parking",
+            "patterns": ["Is there parking for buses?", "Tell me about bus parking"],
+            "responses": ["Yes, we have designated parking areas for buses. If you are arriving with a group on a bus, please follow signage for bus parking."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "parking_feedback",
+            "patterns": ["How can I provide feedback on the parking facility?", "Give parking feedback"],
+            "responses": ["We value your feedback. You can provide feedback on the parking facility through our website or by contacting our customer service. Your input helps us improve our services."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "car_wash_services",
+            "patterns": ["Do you offer car wash services in the parking facility?", "Tell me about parking facility services"],
+            "responses": ["Yes, we provide car wash services in the parking facility. You can have your vehicle cleaned while it's parked. Check with our attendants for more details."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "parking_shuttles",
+            "patterns": ["Are there shuttles from the parking facility to nearby locations?", "Tell me about parking shuttles"],
+            "responses": ["Yes, we offer parking shuttles to transport you to nearby locations. Check the schedule and pick-up points for convenient transportation."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "discount_programs",
+            "patterns": ["Do you have discount programs for frequent parkers?", "Tell me about parking discounts"],
+            "responses": ["Frequent parkers may qualify for discount programs. Enquire at our customer service desk to learn about available discounts for regular parkers."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "lost_and_found",
+            "patterns": ["What should I do if I lose something in the parking facility?", "Lost and found in the parking lot"],
+            "responses": ["If you lose something in the parking facility, please contact our lost and found department. They will assist you in locating and retrieving your lost items."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "parking_lot_capacity",
+            "patterns": ["How many vehicles can the parking lot accommodate?", "Tell me about parking capacity"],
+            "responses": ["The parking lot can accommodate a specified number of vehicles. Check with our attendants or refer to signage for information on current capacity and availability."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "employee_parking",
+            "patterns": ["Where can employees park?", "Tell me about employee parking"],
+            "responses": ["Employees can park in designated employee parking areas. Please display your employee parking permit to use these designated spaces."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "ticket_payment_options",
+            "patterns": ["What options do I have for paying parking tickets?", "Pay parking fines"],
+            "responses": ["You can pay parking fines through various options, including our website, in-person at the customer service desk, or using designated payment kiosks within the parking facility."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "security_alerts",
+            "patterns": ["How do you communicate security alerts in the parking facility?", "Parking security notifications"],
+            "responses": ["Security alerts and notifications are communicated through our public announcement system and, if necessary, through text messages or mobile app alerts. Stay informed for a safe parking experience."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "parking_lot_map",
+            "patterns": ["Is there a map of the parking lot available?", "Tell me about the parking lot layout"],
+            "responses": ["Yes, we provide parking lot maps for your convenience. You can find them at the entrance or inquire at our customer service desk for assistance in navigating the parking facility."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "carpool_parking",
+            "patterns": ["Do you have special parking for carpoolers?", "Tell me about carpool parking"],
+            "responses": ["Yes, we have designated parking spaces for carpoolers. If you are carpooling, look for signage indicating carpool parking areas."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "parking_fee_structure",
+            "patterns": ["Can you provide information on the parking fee structure?", "Tell me about parking fees"],
+            "responses": ["Our parking fee structure is based on the duration of stay. Short-term and long-term rates apply. Refer to the signage at the entrance for detailed information on parking fees."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "security_escorts",
+            "patterns": ["Are security escorts available for late-night parking?", "Security assistance for late-night parking"],
+            "responses": ["For your safety, security escorts are available for late-night parking. Contact our security personnel for assistance in escorting you to your vehicle."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "automated_payment",
+            "patterns": ["Do you have automated payment options for parking?", "Tell me about self-service payment kiosks"],
+            "responses": ["Yes, we have automated payment options available. You can use self-service payment kiosks within the parking facility for a quick and convenient payment process."],
+            "context": ["parking_management"]
+        },
+        {
+            "tag": "vip_parking",
+            "patterns": ["Is there VIP parking available?", "Tell me about VIP parking services"],
+            "responses": ["Yes, we offer VIP parking services. VIP parking spaces are available for a premium, providing you with exclusive and convenient parking options."],
+            "context": ["parking_management"]
+        }
+]}
