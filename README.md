@@ -16,11 +16,18 @@ Machine Learning: OpenCV for image recognition and machine learning capabilities
 
 Description:
 main.py: Main Python source code.
+
 streamlit.py: Streamlit version of main.py.
+
 model.pkl: ML model.
+
 user_feedback.csv: Act as a backend to store user feedback.
+
 Feedback.py: Python+Streamlit code to collect user feedback.
+
 Location.py: Python+Streamlit code to find and suggest nearby hotels, malls, etc.
+
 ParkingSpaceCounter.py: Python+Streamlit code to find the empty and occupied parking spaces.
+
 chatbot_model.h5: Chatbot model.
 
