@@ -10,8 +10,6 @@ User-Friendly Interface: Our intuitive interface allows users to easily navigate
 
 Automated Parking Guidance System: Utilizing machine learning algorithms, our system provides real-time parking guidance, directing users to available parking spots and minimizing congestion.
 
-Online Booking and Reservations: Users can conveniently book parking slots in advance through our online platform, ensuring a hassle-free parking experience.
-
 Machine Learning for Continuous Improvement: Our system continuously learns from user feedback and parking data, improving its performance and enhancing user satisfaction over time.
 
 Chatbots for User Assistance: Integrated chatbots provide instant assistance to users, addressing queries and providing guidance on parking-related issues.
