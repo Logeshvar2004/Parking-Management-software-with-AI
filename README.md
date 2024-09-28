@@ -8,8 +8,6 @@ Key Features:
 
 User-Friendly Interface: Our intuitive interface allows users to easily navigate through the parking system, making bookings, and reservations effortlessly.
 
-Automated Parking Guidance System: Utilizing machine learning algorithms, our system provides real-time parking guidance, directing users to available parking spots and minimizing congestion.
-
 Machine Learning for Continuous Improvement: Our system continuously learns from user feedback and parking data, improving its performance and enhancing user satisfaction over time.
 
 Chatbots for User Assistance: Integrated chatbots provide instant assistance to users, addressing queries and providing guidance on parking-related issues.
